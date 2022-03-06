@@ -9,8 +9,8 @@ const Heading = () => {
   const customStyle = {
     color: "",
   };
-	
-  if (currentTime < 7) {
+
+  if (currentTime < 8) {
     greeting = "Good morning";
     customStyle.color = "green";
   } else if (currentTime < 13) {
